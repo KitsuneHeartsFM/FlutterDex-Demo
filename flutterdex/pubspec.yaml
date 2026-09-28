@@ -27,8 +27,6 @@ flutter:
   - "assets/jsons/index.json"
   # pokemon entries assets
   - "assets/jsons/entries/entry_list_1.json"
-  - "assets/jsons/entries/entry_list_2.json"
-  - "assets/jsons/entries/entry_list_3.json"
   # pokemon image assets
   - "assets/images/Bulbasaur.png"
   - "assets/images/Ivysaur.png"
