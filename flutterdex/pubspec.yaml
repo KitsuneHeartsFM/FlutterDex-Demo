@@ -1,0 +1,35 @@
+name: flutterdex
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets: 
+  # main index asset
+  - "assets/jsons/index.json"
+  # pokemon entries assets
+  - "assets/jsons/entries/entry_list_1.json"
+  - "assets/jsons/entries/entry_list_2.json"
+  - "assets/jsons/entries/entry_list_3.json"
+  # pokemon image assets
+  - "assets/images/Bulbasaur.png"
+  - "assets/images/Ivysaur.png"
+  - "assets/images/Venusaur.png"

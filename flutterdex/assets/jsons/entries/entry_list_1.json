@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "image": "assets/images/Bulbasaur.png",
+        "entry": "Bulbasaur, the Seed Pokémon. It carries a seed on its back right from birth. As its body grows larger, the seed does too. ",
+        "evolution": {
+            "can_evolve": true,
+            "evolves_from_level": null,
+            "evolves_at_level": 16,
+            "evolves_from": null,
+            "evolves_to": 2
+        },
+        "stats": {
+            "hp": 45,
+            "atk": 49,
+            "def": 49,
+            "spa": 65,
+            "spd": 65,
+            "spe": 45,
+            "total": 318
+        },
+        "abilities": {
+            "primary": "Overgrow",
+            "secondary": null,
+            "hidden": "Clorophyll"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ivysaur",
+        "image": "assets/images/Ivysaur.png",
+        "entry": "Ivysaur, the Seed Pokémon. It evolves from Bulbasaur. The bulb on its back grows as it absorbs nutrients. The bulb gives off a pleasant aroma when it blooms.",
+        "evolution": {
+            "can_evolve": true,
+            "evolves_from_level": 16,
+            "evolves_at_level": 32,
+            "evolves_from": 1,
+            "evolves_to": 2
+        },
+        "stats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 63,
+            "spa": 80,
+            "spd": 80,
+            "spe": 60,
+            "total": 405
+        },
+        "abilities": {
+            "primary": "Overgrow",
+            "secondary": null,
+            "hidden": "Clorophyll"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Venusaur",
+        "image": "assets/images/Venusaur.png",
+        "entry": "Venusaur, the Seed Pokémon. It evolves from Ivysaur and it's the final stage of the Bulbasaur evolution line. By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
+        "evolution": {
+            "can_evolve": false,
+            "evolves_from_level": 32,
+            "evolves_at_level": null,
+            "evolves_from": 2,
+            "evolves_to": null
+        },
+        "stats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 83,
+            "spa": 100,
+            "spd": 100,
+            "spe": 80,
+            "total": 525
+        },
+        "abilities": {
+            "primary": "Overgrow",
+            "secondary": null,
+            "hidden": "Clorophyll"
+        }
+    }
+]
