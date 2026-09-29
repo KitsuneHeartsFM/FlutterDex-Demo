@@ -14,7 +14,7 @@ class _ListingState extends State<Listing> {
       home: Scaffold(
         appBar: AppBar(title: Text("FlutterDex"), centerTitle: true),
         body: Text(
-          "Lista de Pokemons",
+          "Lista de Pokemons Registrados",
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
           textAlign: TextAlign.center,
         ),

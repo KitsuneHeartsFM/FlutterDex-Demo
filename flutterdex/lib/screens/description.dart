@@ -14,7 +14,7 @@ class _DescriptionState extends State<Description> {
       home: Scaffold(
         appBar: AppBar(title: Text("FlutterDex"), centerTitle: true),
         body: Text(
-          "Lista de Pokemons",
+          "Entrada Completa",
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
           textAlign: TextAlign.center,
         ),
